@@ -23,6 +23,7 @@ func test() {
 		}
 	}()
 	//定义了一个map
+	//nil map不能增加，可以读取
 	var myMap map[int]string
 	myMap[0] = "golang" //error
 }
